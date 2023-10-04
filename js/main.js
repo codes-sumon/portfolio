@@ -172,7 +172,7 @@ const selectedIcon = localStorage.getItem("selected-icon");
 const getCurrentTheme = () =>
   document.body.classList.contains(darkTheme) ? "dark" : "light";
 const getCurrentIcon = () =>
-  themeButton.classList.contains(iconTheme) ? "fa-moon" : "fa-sun";
+  themeButton.classList.contains(iconTheme) ? "fa-sun" : "fa-moon";
 
 // We validate if the user previously chose a topic
 if (selectedTheme) {
@@ -180,7 +180,7 @@ if (selectedTheme) {
   document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
     darkTheme
   );
-  themeButton.classList[selectedIcon === "fa-moon" ? "add" : "remove"](
+  themeButton.classList[selectedIcon === "fa-sun" ? "add" : "remove"](
     iconTheme
   );
 }
