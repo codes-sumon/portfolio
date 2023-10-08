@@ -267,6 +267,7 @@ img {
     color: #fff;
     padding: 1rem;
     border-radius: .5rem;
+    border: none;
     font-weight: var(--font-medium);
 
     &:hover {
@@ -455,7 +456,7 @@ img {
     }
 
     .skills-js {
-        width: 60%;
+        width: 75%;
     }
 
     .skills-react {
@@ -475,11 +476,11 @@ img {
     }
 
     .skills-python {
-        width: 55%;
+        width: 90%;
     }
 
     .skills-figma {
-        width: 90%;
+        width: 95%;
     }
 
     .skills-sketch {

@@ -508,7 +508,7 @@ img {
 }
 
 .skills-container .skills-js {
-  width: 60%;
+  width: 75%;
 }
 
 .skills-container .skills-react {
@@ -520,19 +520,19 @@ img {
 }
 
 .skills-container .skills-node {
-  width: 70%;
+  width: 82%;
 }
 
 .skills-container .skills-firebase {
-  width: 90%;
+  width: 85%;
 }
 
 .skills-container .skills-python {
-  width: 55%;
+  width: 90%;
 }
 
 .skills-container .skills-figma {
-  width: 90%;
+  width: 95%;
 }
 
 .skills-container .skills-sketch {
@@ -543,6 +543,9 @@ img {
   width: 85%;
 }
 
+.skills-container .skills-smm {
+  width: 82%;
+}
 /* QUALIFICATION */
 .qualification-tabs {
   display: flex;
@@ -1300,3 +1303,21 @@ img {
   }
 }
 /*# sourceMappingURL=styles.css.map */
+
+
+button {
+  padding: 12px 20px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background-color: #4070f4;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0e4bf1;
+}
+
